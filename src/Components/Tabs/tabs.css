@@ -1,0 +1,53 @@
+.Tabs {
+    height: auto;
+    align-items: center;
+    color: black;
+    width: 40%;
+    margin: 2rem auto;
+    padding: 1.5rem 1rem;
+    border-radius: 1rem;
+    background-color: white;
+
+    @media (max-width: 769px) {
+        padding: 2rem 0;
+    }
+}
+
+ul.nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 2rem;
+    padding-left: 0px;
+
+    @media (max-width: 768px) {
+        width: 90%;
+    }
+}
+
+ul.nav li {
+    width: 60%;
+    padding: 1rem;
+    list-style: none;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s;
+    background-color: #C3C3C3;
+    color: black;
+    font-weight: 500;
+    border-radius: 10px 0px 0px 10px;
+}
+
+ul.nav li:nth-child(2) {
+    border-radius: 0;
+    border-radius: 0px 10px 10px 0px;
+}
+
+ul.nav li:hover,
+ul.nav li.active {
+    background: #111111;
+    color: white;
+}

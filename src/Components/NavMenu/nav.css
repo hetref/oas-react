@@ -1,0 +1,67 @@
+.body {
+    background-color: black;
+}
+
+.menu-wrapper {
+    display: flex;
+    max-width: 1300px;
+    justify-content: space-around;
+    margin: auto;
+    padding: 1rem;
+}
+
+.logo {
+    color: white;
+    width: 15%;
+}
+
+.searchbar svg {
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.521);
+    margin: auto;
+}
+
+.searchbar input::placeholder {
+    color: rgba(255, 255, 255, 0.521);
+}
+
+.searchbar input {
+    width: 100%;
+    height: 3rem;
+    background: transparent;
+    color: white;
+    text-indent: 10px;
+    font-size: 1.1rem;
+    margin: auto;
+    outline: 0;
+    border: 0;
+    border-radius: 10px;
+}
+
+.searchbar {
+    display: inline-flex;
+    width: 60%;
+    height: 50%;
+    margin: auto;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.433);
+    border-radius: 20px;
+    padding: 5px 15px;
+}
+
+.user {
+    width: 25;
+    display: inline-flex;
+    margin: auto;
+    gap: 1rem;
+}
+
+.user-img {
+    width: 40%;
+}
+
+.user svg {
+    font-size: 2.5rem;
+    color: rgba(255, 255, 255, 0.521);
+    margin: auto;
+}
